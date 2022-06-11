@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Assignment</h1>
+    <div id="main-container">
+        <div id="side-bar">
+            <button class="element">Home</button>
+            <button class="element">Mad Libs</button>
+            <button class="element" onclick="document.location='index2.html'">Tom Thumb</button>
+        </div>
+        <div id="display">
+            <h2>Mad Libs</h2>
+            <div id="input-container">
+                <div class="item">
+                <p>Person Name: </p>
+                    <input type="text" name="name"></input>
+                </div>
+                <div class="item">
+                    <p >Character: </p>
+                    <input type="text" name="character"></input>
+                </div>
+                <div class="item">
+                    <p>Adverb: </p>
+                    <input type="text" name="adverb"></input>
+                </div>
+                <div class="item">
+                    <p>Adjective: </p>
+                    <input type="text" name="adjective"></input>
+                </div>
+
+                <button id="submit-btn">Tell Story</button>
+            </div>
+
+        <div id="story-container">
+            <h2>Zhibek's Crazy Story</h2>
+            <div id="story">One day, my friend Johny was visiting New York and ran into Amber. Johny ran quickly to meet Amber. But Amber turned out to be very stupid and Johny did noy enjoy.</div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100px;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+p {
+    width: 150px;
+}
+
+#main-container {
+    padding: 10px;
+    border: 4px solid black;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-container {
+    margin: 20px 50px 40px 50px;
+    border: 2px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px #888888;
+}
+
+#story-container {
+    margin: 40px 50px 40px 50px;
+    border: 2px solid gainsboro;
+    padding: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px #888888;
+    display: none;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit-btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#story {
+    margin-top: 30px;
+}
+
+#side-bar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#display {
+    background-color: lavenderblush;
+    width: 75%;
+    border: 4px solid black;
+}
+
+.element {
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+}
